@@ -1,0 +1,15 @@
+package io.github.gabrielsalesls.domain;
+
+// NAO É MAIS UTILIZADO
+public interface ValidationGroups {
+	
+	public interface ClienteId { }
+
+}
+
+/* AGORA AS OPERACOES FEITAS NA API SAO REALIZADAS PELO REPRESENTATIN MODEL,
+ * DESSA FORMA, O VALIDATION GROUP E AS ANOTAÇÕES FEITAS NA ENTIDADE NAO SAO MAIS NECESSARIAS
+ * 
+ * MESMO ASSIM VOU DEIXA-LAS PRA FICAR DE EXEMPLO 
+ * 
+ */
